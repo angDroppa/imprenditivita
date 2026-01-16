@@ -1,7 +1,8 @@
 import { events } from "@/app/data/events"
 
-export default function EventDetail({ params }: any) {
-  const event = events.find(e => e.id === Number(params.id))
+export default async function EventDetail({ params }: any) {
+  const resolvedParams = await params
+  const event = events.find(e => e.id === Number(resolvedParams.id))
 
   if (!event) return <p>Evento non trovato</p>
 

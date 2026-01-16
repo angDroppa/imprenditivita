@@ -1,0 +1,72 @@
+  export const events = [
+    {
+      id: 1,
+      title: 'Passeggiata al Parco Valentino',
+      interest: 'walk',
+      date: '19 Gen',
+      time: '15:00',
+      duration: '1.5h',
+      location: 'Parco Valentino, ingresso principale',
+      coordinates: { lat: 45.0537, lng: 7.6869 },
+      participants: 3,
+      maxParticipants: 5,
+      description: 'Passeggiata tranquilla lungo il Po con possibilità di foto.',
+      organizer: 'Marco'
+    },
+    {
+      id: 2,
+      title: 'Pomeriggio di giochi da tavolo',
+      interest: 'games',
+      date: '20 Gen',
+      time: '16:30',
+      duration: '2h',
+      location: 'Caffè Letterario, Via Po',
+      coordinates: { lat: 45.0677, lng: 7.6856 },
+      participants: 4,
+      maxParticipants: 6,
+      description: 'Giochi moderni e classici. Principianti benvenuti!',
+      organizer: 'Elena'
+    },
+    {
+      id: 3,
+      title: 'Sessione di studio condiviso',
+      interest: 'study',
+      date: '21 Gen',
+      time: '10:00',
+      duration: '2h',
+      location: 'Biblioteca Civica Centrale',
+      coordinates: { lat: 45.0705, lng: 7.6868 },
+      participants: 2,
+      maxParticipants: 4,
+      description: 'Studio individuale in compagnia. Pomodoro technique.',
+      organizer: 'Sofia'
+    },
+    {
+      id: 4,
+      title: 'Fotografia urbana - Centro',
+      interest: 'photo',
+      date: '22 Gen',
+      time: '14:00',
+      duration: '1.5h',
+      location: 'Piazza Castello',
+      coordinates: { lat: 45.0703, lng: 7.6869 },
+      participants: 3,
+      maxParticipants: 5,
+      description: 'Esploriamo il centro storico con le nostre fotocamere.',
+      organizer: 'Luca'
+    },
+    {
+      id: 5,
+      title: 'Yoga nel parco',
+      interest: 'sport',
+      date: '23 Gen',
+      time: '09:00',
+      duration: '1h',
+      location: 'Parco della Pellerina',
+      coordinates: { lat: 45.0889, lng: 7.6389 },
+      participants: 4,
+      maxParticipants: 6,
+      description: 'Yoga dolce per tutti i livelli. Porta il tuo tappetino.',
+      organizer: 'Giulia'
+    }
+  ];
